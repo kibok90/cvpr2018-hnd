@@ -11,13 +11,13 @@ This repository implements [Lee et al., Hierarchical Novelty Detection for Visua
 
 # Dependencies
 - [Python 3.6.2](https://www.python.org/downloads/) (or https://www.anaconda.com/download/)
-- [Pytorch 0.3.0.post4](https://pytorch.org/) (since Pytorch frequently updates their libraries, our code would not work if you have a different version.)
-- [Torchvision 0.2.0](https://github.com/pytorch/vision)
+- [PyTorch 0.3.0.post4](https://pytorch.org/) (since Pytorch frequently updates their libraries, our code would not work if you have a different version.)
+- [torchvision 0.2.0](https://github.com/pytorch/vision)
 - [NumPy 1.14.0](https://pypi.org/project/numpy)
 - [SciPy 0.19.1](https://pypi.org/project/scipy) (to load features in mat format for AWA and CUB experiments)
 - [h5py 2.7.0](https://pypi.org/project/h5py/) (to save features and random numbers)
 - [matplotlib 2.0.2](https://pypi.org/project/matplotlib/) (to plot known-novel class accuracy curve)
-- [NLTK 3.2.4](https://pypi.org/project/nltk/) (to convert WordNet synset to offset ids for CUB experiments)
+- [NLTK 3.2.4](https://pypi.org/project/nltk/) (to convert WordNet synsets to offset ids for CUB experiments)
 
 # Data
 You may download either raw images or ResNet-101 features. If you download ResNet-101 features, place them in `datasets/{dataset}/`. (`{dataset} = ImageNet, AWA2, CUB`)
