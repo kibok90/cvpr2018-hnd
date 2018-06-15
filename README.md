@@ -47,19 +47,22 @@ Run `sh scripts/preparation.sh {d}`. (`{d} = imagenet_full, imagenet, awa2, cub`
 - `{d} = imagenet` if you have ResNet-101 features
 
 Output files are in `taxonomy/{dataset}/`.
-Or you can download pre-built taxonomies [[here](https://drive.google.com/uc?export=download&id=1p_-Yq3hd9ITrAveafj3sC00VCN3VJlE1)].
+
+You can download pre-built taxonomies [[here](https://drive.google.com/uc?export=download&id=1p_-Yq3hd9ITrAveafj3sC00VCN3VJlE1)].
 
 ### Feature extraction (ImageNet) or conversion (AWA, CUB)
 Run `sh scripts/feature.sh {d}`. (`{d} = imagenet, awa2, cub`)
 
 Output files are in `datasets/{dataset}/`.
+
 If you have ResNet-101 features for ImageNet, skip this.
 
 # Train, test
 Run `sh scripts/train.sh {d} {m}`. (`{d} = imagenet, awa2, cub, {m} = relabel, td, loo, td+loo`)
 
 Output files are in `train/`.
-Or you can download pre-trained models [[here](https://drive.google.com/uc?export=download&id=1y1CZAJZiVabFaTiim8sr89j_KqDs3bFv)].
+
+You can download pre-trained models [[here](https://drive.google.com/uc?export=download&id=1y1CZAJZiVabFaTiim8sr89j_KqDs3bFv)].
 
 # Note
 - The code keeps all random numbers and final models. For new experiment, you may remove the following if exist:
