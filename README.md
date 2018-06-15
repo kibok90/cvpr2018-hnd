@@ -62,7 +62,7 @@ Run `sh scripts/train.sh {d} {m}`. (`{d} = imagenet, awa2, cub, {m} = relabel, t
 
 Output files are in `train/`.
 
-You can download pre-trained models [[here](https://drive.google.com/uc?export=download&id=1y1CZAJZiVabFaTiim8sr89j_KqDs3bFv)].
+You can download models reported in the paper [[here](https://drive.google.com/uc?export=download&id=1y1CZAJZiVabFaTiim8sr89j_KqDs3bFv)].
 
 # Note
 - The code keeps all random numbers and final models. For new experiment, you may remove the following if exist:
